@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+.hero {
+  margin: 30px 0;
+}
+.tabs input {
+  display: none;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 30px 0;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.title label{
+    font-size: 30px;
+    font-weight: 600;
+    background: yellow;
+    border-radius: 8px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+#html:checked
